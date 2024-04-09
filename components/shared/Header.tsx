@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import NavItems from "../NavItems";
-import MobileNav from "../MobileNav";
+import NavItems from "./NavItems";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (

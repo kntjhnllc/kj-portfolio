@@ -278,7 +278,7 @@ body {
 
 .hero-image-container {
   position: relative;
-  border: 4px solid #ff7f0e;
+  border: 4px solid black;
   transition: border-radius 10.5s ease-in-out;
   animation: border-radius-wriggle 10s ease-in-out infinite alternate;
 }
