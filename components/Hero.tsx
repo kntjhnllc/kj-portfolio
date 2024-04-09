@@ -69,7 +69,7 @@ const Hero = () => {
             </h1>
           </div>
           <div className="flex md:gap-14 gap-10 w-full md:ml-5 flex-wrap items-center justify-center">
-            <div className="flex md:gap-5 gap-1">
+            <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
               <Link href={"https://html.com/"}>
                 <img
                   src="icons/html.png"
@@ -86,7 +86,7 @@ const Hero = () => {
                 />
               </Link>
             </div>
-            <div className="flex md:gap-5 gap-1">
+            <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
               <Link href={"https://www.javascript.com/"}>
                 <img
                   src="icons/js.png"
@@ -102,7 +102,7 @@ const Hero = () => {
                 />
               </Link>
             </div>
-            <div className="flex md:gap-5 gap-1">
+            <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
               <Link href={"https://nextjs.org/"}>
                 <img
                   src="icons/nextjs.svg"
@@ -118,7 +118,7 @@ const Hero = () => {
                 />
               </Link>
             </div>
-            <div className="flex md:gap-5 gap-1">
+            <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
               <Link href={"https://typeorm.io/"}>
                 <img
                   src="icons/typeorm.svg"
@@ -139,7 +139,7 @@ const Hero = () => {
                 src="icons/tailwind.png"
                 alt="tailwind"
                 width={35}
-                className="cursor-pointer md:w-[35px] w-[50px]"
+                className="cursor-pointer md:w-[35px] w-[50px] hover:-translate-y-8 transition transform duration-300"
               />
             </Link>
           </div>
