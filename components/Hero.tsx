@@ -25,7 +25,7 @@ const Hero = () => {
               <img
                 src="/icons/pin.png"
                 alt="pin"
-                className="absolute h-[20px] mt-[50px] ml-[270px] md:mt-[25px] md:ml-[350px]"
+                className="absolute h-[20px] mt-[50px] ml-[270px] md:mt-[25px] md:ml-[260px]"
               />
             </div>
             <div className="flex mt-10 md:ml-4 justify-center md:justify-start">

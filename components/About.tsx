@@ -23,7 +23,7 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="bg-white flex items-center justify-center mt-10 md:py-32"
+      className="bg-white flex items-center justify-center mt-10 md:py-32 py-10"
     >
       <div className="wrapper">
         <div className="flex md:flex-row flex-col items-center justify-center md:gap-14 md:px-44 md:ml-1">

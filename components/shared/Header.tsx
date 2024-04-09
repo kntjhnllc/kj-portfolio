@@ -5,7 +5,7 @@ import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
-    <header className="w-full shadow-xl ">
+    <header className="w-full shadow-md ">
       <div className="wrapper flex  justify-between center">
         <Link href="/" className="w-36">
           <h1 className="font-semibold text-xl">kj.dev</h1>
