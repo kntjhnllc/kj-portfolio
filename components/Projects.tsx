@@ -5,7 +5,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <section className="wrapper">
+    <section id="project" className="wrapper">
       <div className="flex flex-col md:py-24 py-14 md:px-44 md:ml-1">
         {PROJECTS.length > 0 ? (
           <div className="flex flex-col">
