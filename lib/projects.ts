@@ -6,6 +6,8 @@ export const PROJECTS = [
     image: "/images/web-apple.png",
     github:"https://github.com/kenjanjan/apple-website",
     demo: "https://kjliloc-apple-website.vercel.app/",
+    tech1:'React',
+    tech2:'JavaScript'
   },
   {
     id:2,
@@ -14,5 +16,7 @@ export const PROJECTS = [
     image: "/images/web-evently.png",
      github:"https://github.com/kntjhnllc/evently-platform",
     demo: "https://kent-evently-platform.vercel.app",
+    tech1:'Next.js',
+    tech2:'MongoDB',
   }
 ];

@@ -41,8 +41,8 @@ const Projects = () => {
                     <h1 className="font-bold text-lg">{project.title}</h1>
                     <h1>{project.description}</h1>
                     <div className="font-bold gap-8 flex">
-                      <h1>React</h1>
-                      <h1>JavaScipt</h1>
+                      <h1>{project.tech1}</h1>
+                      <h1>{project.tech2}</h1>
                     </div>
                     <div className="flex gap-5 mt-10">
                       <Link href={project.github}>
