@@ -19,12 +19,12 @@ const Projects = () => {
               {PROJECTS.map((project, index) => (
                 <div
                   key={project.id}
-                  className={`flex mb-5 rounded-lg ${
-                    index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+                  className={`flex mb-5 rounded-lg flex-col ${
+                    index % 2 === 0 ? "md:flex-row " : "md:flex-row-reverse"
                   } justify-between p-10 shadow-sm w-full`}
                 >
                 <div
-                    className={`w-4/6 flex ${
+                    className={`md:w-4/6 flex ${
                         index % 2 === 0 ? "" : "justify-end"
                     } `}
                 >
@@ -37,7 +37,7 @@ const Projects = () => {
                         draggable="false"
                     />
                 </div>
-                  <div className="flex flex-col justify-center text-center w-2/6 items-center gap-3">
+                  <div className="flex flex-col justify-center text-center md:w-2/6 items-center gap-3 mt-5 md:mt-0">
                     <h1 className="font-bold text-lg">{project.title}</h1>
                     <h1>{project.description}</h1>
                     <div className="font-bold gap-8 flex">
