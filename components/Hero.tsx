@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="wrapper">
       <div className="flex flex-col">
-        <div className="flex md:flex-row flex-col-reverse justify-center md:justify-between items-center md:p-24 md:mx-24 mt-10">
+        <div className="flex md:flex-row flex-col-reverse justify-center md:justify-between items-center md:px-40 md:py-44 mt-10">
           <div className="flex flex-col md:mt-0 mt-14">
             <div className="text-4xl md:text-5xl font-black flex   md:text-start  text-center  items-center justify-center md:justify-start w-full md:px-0 px-20 ml-5 md:ml-4">
               Full-Stack
@@ -58,7 +58,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="w-full flex md:flex-row flex-col font-semibold items-center justify-center  md:px-52 ml-1">
+        <div className="w-full flex md:flex-row flex-col font-semibold items-center justify-center  md:px-44 ml-1">
           <div className="flex  text-center items-center justify-center ">
             <h1 className="md:mr-5 text-nowrap w-full md:flex-row flex flex-col md:mb-0 mb-7 md:mt-0 mt-10">
               Tech Stack
