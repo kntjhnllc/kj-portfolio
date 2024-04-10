@@ -33,7 +33,7 @@ const Projects = () => {
                         alt="projectimage"
                         width={500}
                         height={200}
-                        className="object-cover rounded-xl pointer-events-none"
+                        className="object-cover rounded-xl pointer-events-none select-none"
                         draggable="false"
                     />
                 </div>
@@ -51,7 +51,8 @@ const Projects = () => {
                           <img
                             src="icons/github.png"
                             alt="github"
-                            className="w-[35px]"
+                            className="w-[35px] pointer-events-none select-none"
+                            draggable="false"
                           />
                         </div>
                       </Link>
@@ -61,7 +62,8 @@ const Projects = () => {
                           <img
                             src="icons/external-link.png"
                             alt="github"
-                            className="w-[30px]"
+                            className="w-[30px] pointer-events-none select-none"
+                            draggable="false"
                           />
                         </div>
                       </Link>

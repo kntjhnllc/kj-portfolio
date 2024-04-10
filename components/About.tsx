@@ -31,18 +31,20 @@ const About: React.FC = () => {
             <img
               src="/icons/about.jpg"
               alt="about"
-              className="rounded-2xl min-w-[200px] max-w-[400px]"
+              className="rounded-2xl min-w-[200px] max-w-[400px] pointer-events-none select-none"
+              draggable="false"
             />
             <div className="absolute circle md:-mt-[130px] md:ml-[260px] -mt-[80px] ml-[105px] w-[190px] h-[180px] p-4 bg-white rounded-full flex flex-col items-center justify-center">
               <div className="logo">
                 <img
                   src="/icons/about-developer.png"
                   alt="developer"
-                  className="min-w-[80px] max-w-[80px]"
+                  className="min-w-[80px] max-w-[80px]  pointer-events-none select-none"
+                  draggable="false"
                 />
               </div>
               <div className="text">
-                <p ref={textRef} className="text-black text-sm text-center font-semibold">
+                <p ref={textRef} className="text-black text-sm text-center font-semibold pointer-events-none select-none">
                   FULL-STACK WEB DEVELOPER
                 </p>
               </div>

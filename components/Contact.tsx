@@ -17,7 +17,7 @@ const Contact = () => {
                   src="/icons/point.png"
                   alt="point"
                   width={30}
-                  className="rotate-180 ml-2"
+                  className="rotate-180 ml-2 pointer-events-none select-none"
                 />
               </span>
             </h1>
@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="flex md:flex-row flex-col mt-10  gap-10">
             <div className="gap-5 flex items-center justify-center md:ml-0 -ml-6">
               <div className="rounded-full shadow-xl w-[60px] h-[60px] flex items-center justify-center">
-                <img src="/icons/map.png" alt="map" className="w-[35px]" />
+                <img src="/icons/map.png" alt="map" className="w-[35px] pointer-events-none select-none" />
               </div>
               <div className=" flex flex-col">
                 <h1 className="font-bold">Location</h1>
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
             <div className="gap-5 flex items-center justify-center">
               <div className="rounded-full shadow-xl w-[60px] h-[60px] flex items-center justify-center">
-                <img src="/icons/mail.png" alt="map" className="w-[35px]" />
+                <img src="/icons/mail.png" alt="map" className="w-[35px] pointer-events-none select-none" />
               </div>
               <div className=" flex flex-col">
                 <h1 className="font-bold">Mail</h1>

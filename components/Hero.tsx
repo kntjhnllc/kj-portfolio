@@ -13,7 +13,7 @@ const Hero = () => {
               <img
                 src="/icons/wave-icon.png"
                 alt="wave"
-                className=" relative w-[40px] mr-5 mt-11 md:mt-[40px] md:ml-[10px]"
+                className=" relative w-[40px] mr-5 mt-11 md:mt-[40px] md:ml-[10px]  pointer-events-none select-none"
               />
             </div>
 
@@ -25,7 +25,7 @@ const Hero = () => {
               <img
                 src="/icons/pin.png"
                 alt="pin"
-                className="absolute h-[20px] mt-[50px] ml-[270px] md:mt-[25px] md:ml-[260px]"
+                className="absolute h-[20px] mt-[50px] ml-[270px] md:mt-[25px] md:ml-[260px]  pointer-events-none select-none"
               />
             </div>
             <div className="flex mt-10 md:ml-4 justify-center md:justify-start">
@@ -36,7 +36,7 @@ const Hero = () => {
                   src="/icons/linkedin.png"
                   alt="linkedin"
                   width={40}
-                  className="cursor-pointer"
+                  className="cursor-pointer  pointer-events-none select-none"
                 />
               </Link>
               <Link href={"https://github.com/kntjhnllc"}>
@@ -44,14 +44,14 @@ const Hero = () => {
                   src="/icons/github.png"
                   alt="github"
                   width={35}
-                  className="cursor-pointer"
+                  className="cursor-pointer  pointer-events-none select-none"
                 />
               </Link>
             </div>
           </div>
           <div className="md:mr-10 z-10 ">
             <img
-              className="hero-image-container min-w-[300px]"
+              className="hero-image-container min-w-[300px]  pointer-events-none select-none"
               src="/images/kjliloc.jpg"
               alt="kent"
               width={300}
@@ -75,14 +75,14 @@ const Hero = () => {
                   src="icons/html.png"
                   alt="html"
                   
-                  className="cursor-pointer md:w-[35px] w-[50px]"
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
               <Link href={"https://www.w3schools.com/css/css_intro.asp"}>
                 <img
                   src="icons/css.png"
                   alt="css"
-                  className="cursor-pointer md:w-[35px] w-[50px]"
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
             </div>
@@ -91,14 +91,14 @@ const Hero = () => {
                 <img
                   src="icons/js.png"
                   alt="js"
-                  className="rounded-sm md:w-[35px] w-[50px]"
+                  className="rounded-sm md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
               <Link href={"https://www.typescriptlang.org/ "}>
                 <img
                   src="icons/ts.png"
                   alt="ts"
-                  className="cursor-pointer md:w-[35px] w-[50px]"
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
             </div>
@@ -107,14 +107,14 @@ const Hero = () => {
                 <img
                   src="icons/nextjs.svg"
                   alt="next"
-                  className="cursor-pointer md:w-[35px] w-[50px]"
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
               <Link href={"https://nestjs.com/"}>
                 <img
                   src="icons/nestjs.svg"
                   alt="nest"
-                  className="cursor-pointer md:w-[35px] w-[50px]"
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
             </div>
@@ -123,25 +123,27 @@ const Hero = () => {
                 <img
                   src="icons/typeorm.svg"
                   alt="next"
-                  className="cursor-pointer md:w-[35px] w-[50px]"
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
               <Link href={"https://www.postgresql.org/"}>
                 <img
                   src="icons/postgresql.svg"
                   alt="nest"
-                  className="cursor-pointer md:w-[35px] w-[50px]"
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
             </div>
+            <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
             <Link href={"https://tailwindcss.com/"}>
               <img
                 src="icons/tailwind.png"
                 alt="tailwind"
                 width={35}
-                className="cursor-pointer md:w-[35px] w-[50px] hover:-translate-y-8 transition transform duration-300"
+                className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
               />
             </Link>
+            </div>
           </div>
         </div>
       </div>
