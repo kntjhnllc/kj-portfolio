@@ -19,7 +19,7 @@ const MobileNav = () => {
   return (
     <nav className="md:hidden">
       <Sheet>
-        <SheetTrigger className="align-middle">
+        <SheetTrigger className="align-middle" autoFocus={false}>
           <Image
             src="/assets/icons/menu.svg"
             alt="menu"
@@ -29,7 +29,6 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent className="flex flex-col items-center justify-center gap-10 bg-white md:hidden">
-
           <NavItems />
         </SheetContent>
       </Sheet>
