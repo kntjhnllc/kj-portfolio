@@ -14,14 +14,14 @@ const Footer = () => {
               <img
                 src="/icons/linkedin-white.png"
                 alt="linkedin"
-                className="cursor-pointer"
+                className="cursor-pointer pointer-events-none"
               />
             </Link>
             <Link href={"https://github.com/kntjhnllc"}>
               <img
                 src="/icons/github-white.png"
                 alt="github"
-                className="h-[40px] cursor-pointer"
+                className="md:h-[40px] h-[37px] cursor-pointer pointer-events-none"
               />
             </Link>
           </div>

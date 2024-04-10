@@ -49,10 +49,10 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <div className="md:mr-10 ">
+          <div className="md:mr-10 z-10 ">
             <img
               className="hero-image-container min-w-[300px]"
-              src="/images/kent.jpg"
+              src="/images/kjliloc.jpg"
               alt="kent"
               width={300}
             />

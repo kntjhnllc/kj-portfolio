@@ -31,7 +31,7 @@ const About: React.FC = () => {
             <img
               src="/icons/about.jpg"
               alt="about"
-              className="rounded-2xl min-w-[400px] max-w-[400px]"
+              className="rounded-2xl min-w-[200px] max-w-[400px]"
             />
             <div className="absolute circle md:-mt-[130px] md:ml-[260px] -mt-[80px] ml-[105px] w-[190px] h-[180px] p-4 bg-white rounded-full flex flex-col items-center justify-center">
               <div className="logo">
