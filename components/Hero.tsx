@@ -2,9 +2,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="wrapper md:mt-0 mt-10">
+    <div className="wrapper xl:mt-0 sm:mt-10">
       <div className="flex flex-col">
-        <div className="flex md:flex-row flex-col-reverse justify-center md:justify-between items-center md:px-40 md:py-44 mt-10">
+        <div className="flex md:flex-row md:justify-between xl:px-40 xl:py-44 
+             flex-col-reverse justify-center  items-center  mt-10">
           <div className="flex flex-col md:mt-0 mt-14">
             <div className="text-4xl md:text-5xl font-black flex   md:text-start  text-center  items-center justify-center md:justify-start w-full md:px-0 px-20 ml-5 md:ml-4">
               Full-Stack

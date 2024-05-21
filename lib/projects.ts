@@ -4,6 +4,7 @@ export const PROJECTS = [
     title: "Apple Website",
     description: "Replication of Apple's website using React and JavaScript with Three.js and GSAP in animation.",
     image: "/images/web-apple.png",
+    gif:"/gifs/web-apple-gif.gif",
     github:"https://github.com/kenjanjan/apple-website",
     demo: "https://kjliloc-apple-website.vercel.app/",
     tech1:'React',
@@ -18,5 +19,16 @@ export const PROJECTS = [
     demo: "https://kent-evently-platform.vercel.app",
     tech1:'Next.js',
     tech2:'MongoDB',
+  }, 
+  {
+    id:3,
+    title: "Horizon Bank Platform",
+    description: "Access and manage your account and transactions efficiently.",
+    image: "/images/web-banking.png",
+     github:"https://github.com/kenjanjan/banking_app",
+    demo: "https://kjliloc-bank-app.vercel.app/",
+    tech1:'Next.js',
+    tech2:'Plaid',
   }
+
 ];

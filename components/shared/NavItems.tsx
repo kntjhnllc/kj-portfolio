@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <ul className="md:flex-between flex w-full md:mt-0 -mt-10 flex-col item-start gap-5 md:flex-row">
-      <li className="text-primary-500 p-medium-16 whitespace-nowrap flex flex-col items-center md:flex-row md:gap-5 gap-10">
+    <ul className="md:flex-between flex w-full md:mt-0 -mt-10 flex-col item-start  gap-5 md:flex-row">
+      <li className="text-primary-500 w-full justify-end  p-medium-16 whitespace-nowrap flex flex-col items-center md:flex-row md:gap-5 gap-10">
         <a href="#" className="text-primary-500 font-semibold">
           Home
         </a>
@@ -12,6 +12,12 @@ const Navbar = () => {
         </a>
         <a href="#project" className="text-primary-500 font-semibold">
           Projects
+        </a>
+        <a href="#certificate" className="text-primary-500 font-semibold">
+          Certificates
+        </a>
+        <a href="#journal" className="text-primary-500 font-semibold">
+          Journal
         </a>
         <a href="#contact" className="text-primary-500 font-semibold">
           Contact

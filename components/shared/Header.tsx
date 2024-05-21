@@ -9,10 +9,10 @@ const Header = () => {
   return (
     <header className="w-full shadow-md fixed z-[50] bg-white">
       <div className="wrapper flex  justify-between center">
-        <Link href="/" className="w-36">
+        <a href="#" className="w-36">
           <h1 className="font-semibold text-xl">kj.dev</h1>
-        </Link>
-        <nav className="md:flex-between hidden  w-full max-w-xs">
+        </a>
+        <nav className="md:flex-between hidden w-full max-w-lg">
           <NavItems />
         </nav>
         <div className="flex w-32 !justify-end gap-3 md:hidden">
