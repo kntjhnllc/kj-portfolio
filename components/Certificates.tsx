@@ -1,4 +1,5 @@
 import React from "react";
+import CertificateSliders from "./CertificateSliders";
 
 const Certificates = () => {
   return (
@@ -9,6 +10,7 @@ const Certificates = () => {
       <div className="wrapper">
         <div className="flex md:flex-col flex-col items-start justify-start md:gap-2 md:px-44 md:ml-1">
           <h1 className="font-bold text-lg text-blue-500">CERTIFICATES</h1>
+          <CertificateSliders />
         </div>
       </div>
     </section>

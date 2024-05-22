@@ -14,7 +14,7 @@ const Journal = () => {
             {JOURNALS.map((journal, index) => (
               <div
                 key={index}
-                className="flex odd:flex-row-reverse gap-5 items-center"
+                className="flex md:flex-row flex-col md:odd:flex-row-reverse gap-5 items-center"
               >
                 <Image
                   className="rounded-lg"

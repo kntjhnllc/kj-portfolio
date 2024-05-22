@@ -15,7 +15,7 @@ const Header = () => {
         <nav className="md:flex-between hidden w-full max-w-lg">
           <NavItems />
         </nav>
-        <div className="flex w-32 !justify-end gap-3 md:hidden">
+        <div className="flex w-32 !justify-end gap-3 md:hidden ">
           <MobileNav />
         </div>
       </div>
