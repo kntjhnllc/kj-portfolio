@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="wrapper xl:mt-0 sm:mt-10">
+    <div className="wrapper xl:mt-0 sm:mt-10  mt-14">
       <div className="flex flex-col">
         <div className="flex md:flex-row md:justify-between xl:px-40 xl:py-44 
              flex-col-reverse justify-center  items-center  mt-10">

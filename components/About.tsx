@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-
+import Image from "next/image";
 const About: React.FC = () => {
   const textRef = useRef<HTMLParagraphElement>(null);
 
@@ -44,7 +44,10 @@ const About: React.FC = () => {
                 />
               </div>
               <div className="text">
-                <p ref={textRef} className="text-black text-sm text-center font-semibold pointer-events-none select-none">
+                <p
+                  ref={textRef}
+                  className="text-black text-sm text-center font-semibold pointer-events-none select-none"
+                >
                   FULL-STACK WEB DEVELOPER
                 </p>
               </div>
@@ -66,6 +69,10 @@ const About: React.FC = () => {
             </p>
             <p>But I'm happy to be involved with other technologies as well.</p>
           </div>
+        </div>
+        <hr className="h-[2px] mt-16 " />
+        <div className="flex justify-center items-center mt-5">
+          <Image src={"/images/cv.png"} width={500} height={1000} alt="cv" />
         </div>
       </div>
     </section>
