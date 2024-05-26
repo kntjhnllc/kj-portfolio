@@ -39,5 +39,15 @@
         title:"Certificate of Appreciation",
         image:"/images/cert-9.jpg"
     },
+    {
+        id:9,
+        title:"Certificate of Attendance",
+        image:"/images/cert-10.jpg"
+    },
+    {
+        id:10,
+        title:"Psych Test Result",
+        image:"/images/cert-11.jpg"
+    },
     
  ]
