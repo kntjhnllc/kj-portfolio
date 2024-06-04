@@ -49,5 +49,15 @@
         title:"Psych Test Result",
         image:"/images/cert-11.jpg"
     },
+    {
+        id:11,
+        title:"Certificate of Completion",
+        image:"/images/cert-12.jpg"
+    },
+   {
+        id:12,
+        title:"Certificate of Completion",
+        image:"/images/cert-13.jpg"
+    },
     
  ]
